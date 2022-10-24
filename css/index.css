@@ -85,6 +85,23 @@ header {
     align-items: center;   
 }
 
+.clientes__item:hover {
+    animation: animation 2s ease-out;
+}
+
+@keyframes animation {
+    0% {
+        opacity: 0;
+        left: -700px;
+    }
+
+    100% {
+        opacity: 1;
+        left: 0;
+    }
+}
+
+
 .menu {
     display: flex;
     gap: 60px;
@@ -496,6 +513,12 @@ header {
     }
 
     #hero{
+        flex-direction: column;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
         flex-direction: column;
     }
 
