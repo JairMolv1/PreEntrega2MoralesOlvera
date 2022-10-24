@@ -197,16 +197,16 @@ header {
 /* TITULO */
 
 #proyecto {
-    margin-top: 4rem;
+    margin: 4rem;
 }
 
 .proyecto__texto--top {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #proyecto .proyecto__texto--top {
-    width: 80rem;
+    width: 50rem;
     display: flex;
     flex-direction: row;
 }
@@ -216,10 +216,10 @@ header {
     line-height: 1.2;
     font-size: 2rem;
     margin-bottom: 2.5rem;
+    padding-right: 3rem;
 }
 
 #proyecto .proyecto__top--text {
-    text-align: right;
     line-height: 1.2;
     font-size: 1.2rem;
     margin-bottom: 2.5rem;
@@ -534,3 +534,16 @@ header {
         flex-direction: column;
     }
 }
+
+/* BOOTSTRAP DESREBOOT */
+    a {
+        --bs-link-color:var(--primary)
+    }
+
+    body {
+        --bs-body-bg:var(--dark)
+    }
+
+    body {
+        --bs-body-color:var(--primary)
+    }
