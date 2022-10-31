@@ -66,6 +66,7 @@ a {
 }
 
 /* HEADER */
+/* NAVBAR */
 
 header {
     padding: var(--sp-sm);
@@ -101,7 +102,6 @@ header {
     }
 }
 
-
 .menu {
     display: flex;
     gap: 60px;
@@ -129,6 +129,8 @@ header {
     box-shadow: inset 16rem 0 0 0 var(--accent);
 }
 
+
+/* PAGINA DE INICIO */
 /* SECCION PRINCIPAL*/
 
 #hero {
@@ -375,56 +377,59 @@ header {
     box-shadow: inset 16rem 0 0 0 var(--accent);
 }
 
-/* FOOTER */
+/* PAGINA DE NOSOTROS */
 
-#footer {
-    padding-top: 2rem;
-    background-color: var(--lightblack);
-}
 
-#footer .footer__title {
-    font-size: 2rem;
+
+/* PAGINA DE CARACTERISTICAS */
+
+.caracteristicas__title {
+    font-size: 2.5rem;
     padding-bottom: 1rem;
+    padding-right: 2rem;
+}
+
+.caracteristicas__text {
+    font-size: 1.125rem;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+}
+
+.caracteristicas__content--item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* PAGINA DE PRECIOS */
+
+.precios__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+
+.precios__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
 }
 
-#footer .footer__item {
-    display: flex;
-    justify-content: space-evenly;
-    padding: .5rem;
-    font-size: 1.2rem;
+.precios__item {
+    padding: 2rem;
 }
 
-#footer .footer__link:hover {
-    color: var(--secondary);
+.precios__menu {
+    padding-bottom: 2rem;
 }
 
-#footer .footer__down {
-    display: flex;
-    justify-content: space-between;
-}
-
-#footer .footer__rights {
-    margin-left: 1rem;
-}
-
-#footer .socialmedia {
-    margin-right: 1rem;
-}
-
-#footer .socialmedia__link:hover {
-    color: var(--secondary);
-}
-
-#footer .socialmedia__item {
-    padding: .5rem;
-}
-
-#footer .socialmedia__link {
-    padding: .5rem;
-}
-
-/* PAGINA DE REGISTRO */
+/* PAGINA DE REGISTRO Y CONTACTO */
 
 #formulario {
     display: flex;
@@ -498,6 +503,56 @@ header {
 
 .formularios__registro--form .send:hover {
     box-shadow: inset 16rem 0 0 0 var(--accent);
+}
+
+/* FOOTER */
+
+#footer {
+    padding-top: 2rem;
+    background-color: var(--lightblack);
+}
+
+#footer .footer__title {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+#footer .footer__item {
+    display: flex;
+    justify-content: space-evenly;
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+
+#footer .footer__link:hover {
+    color: var(--secondary);
+}
+
+#footer .footer__down {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .footer__rights {
+    margin-left: 1rem;
+}
+
+#footer .socialmedia {
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+#footer .socialmedia__link:hover {
+    color: var(--secondary);
+}
+
+#footer .socialmedia__item {
+    padding: .5rem;
+}
+
+#footer .socialmedia__link {
+    padding: .5rem;
 }
 
 /* MEDIA QUERIES */
