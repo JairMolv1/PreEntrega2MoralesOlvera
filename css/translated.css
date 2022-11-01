@@ -1,0 +1,129 @@
+/* IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700&display=swap");
+/* MISC */
+/* NORMALIZE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-family: 62.5%; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--primary);
+  background-color: var(--dark); }
+
+ul {
+  list-style-type: none; }
+
+a {
+  font-size: var(--text-xxs);
+  text-decoration: none;
+  color: var(--primary); }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+/* BOOTSTRAP DESREBOOT */
+a {
+  --bs-link-color:var(--primary)
+    ; }
+
+body {
+  --bs-body-bg:var(--dark)
+    ; }
+
+body {
+  --bs-body-color:var(--primary)
+    ; }
+
+/* PARTIALS */
+/* HEADER */
+/* NAVBAR */
+header {
+  padding: var(--sp-sm); }
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: var(--lightblack);
+  padding: 1.125em; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .navbar .clientes__item:hover {
+    animation: animation 2s ease-out; }
+
+@keyframes animation {
+  0% {
+    opacity: 0;
+    left: -700px; }
+  100% {
+    opacity: 1;
+    left: 0; } }
+  .navbar .menu {
+    display: flex;
+    gap: 60px; }
+  .navbar .menu .menu__link:hover {
+    color: var(--secondary); }
+  .navbar .menu__link-boton {
+    background-color: var(--secondary);
+    width: 10.281rem;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 5rem;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    transition: all 0.4s; }
+  .navbar .menu__link-boton:hover {
+    box-shadow: inset 16rem 0 0 0 var(--accent); }
+
+/* FOOTER */
+#footer {
+  padding-top: 2rem;
+  background-color: var(--lightblack); }
+
+#footer .footer__title {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  text-align: center; }
+
+#footer .footer__item {
+  display: flex;
+  justify-content: space-evenly;
+  padding: .5rem;
+  font-size: 1.2rem; }
+
+#footer .footer__link:hover {
+  color: var(--secondary); }
+
+#footer .footer__down {
+  display: flex;
+  justify-content: space-between; }
+
+#footer .footer__rights {
+  margin-left: 1rem; }
+
+#footer .socialmedia {
+  margin-right: 1rem;
+  padding-bottom: 1rem; }
+
+#footer .socialmedia__link:hover {
+  color: var(--secondary); }
+
+#footer .socialmedia__item {
+  padding: .5rem; }
+
+#footer .socialmedia__link {
+  padding: .5rem; }
+
+/* PAGES */

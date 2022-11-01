@@ -1,0 +1,45 @@
+/* NORMALIZE */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary);
+    background-color: var(--dark);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    font-size: var(--text-xxs);
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* BOOTSTRAP DESREBOOT */
+    a {
+        --bs-link-color:var(--primary)
+    }
+
+    body {
+        --bs-body-bg:var(--dark)
+    }
+
+    body {
+        --bs-body-color:var(--primary)
+    }

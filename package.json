@@ -1,0 +1,22 @@
+{
+  "name": "project_biznz-website",
+  "version": "1.0.0",
+  "description": "Este es un proyecto para el curso de Desarrollo web en Coderhouse desarrollado con base a un proyecto futuro llamado BIZNZ que busca revolucionar el mundo de los negocios y los freelances de una manera digitalizada y moderna siendo desarrollada como una startup.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/index.scss css/translated.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JairMolv1/project__biznz--coderhouse.git"
+  },
+  "keywords": [],
+  "author": "Jair Morales Olvera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JairMolv1/project__biznz--coderhouse/issues"
+  },
+  "homepage": "https://github.com/JairMolv1/project__biznz--coderhouse#readme"
+}
