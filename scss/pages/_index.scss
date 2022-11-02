@@ -1,0 +1,246 @@
+/* PAGINA DE INICIO */
+/* SECCION PRINCIPAL*/
+
+#hero {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-between;
+    align-items: center;
+
+    #hero {
+        display: flex;
+        gap: 90px;
+    }
+
+    #hero div {
+        margin: 1rem 0;
+    }
+
+    #hero .hero__item {
+        width: 45rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #hero .hero__item .hero__title {
+        text-align: start;
+        line-height: 1.2;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    #hero .hero__item .hero__text {
+        text-align: start;
+        font-size: 1.125rem;
+    }
+
+    #hero .hero__imagen {
+        width: 100%;
+        height: auto;
+        align-items: flex-end;
+    }
+}
+
+/* SECCION DE CLIENTES */
+
+#clientes {
+    margin-top: 2rem;
+
+    #clientes .clientes__title .clientes__texto{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #clientes .clientes__logos {
+        margin-top: 2rem;
+    }
+
+    #clientes .clientes__logos {
+        display: flex;
+        justify-content: space-around;
+        align-items: center; 
+    }
+}
+
+/* SECCION DESCRIPCION Y REDIRECCION */
+/* TITULO */
+
+#proyecto {
+    margin: 4rem;
+
+    .proyecto__texto--top {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #proyecto .proyecto__texto--top {
+        width: 50rem;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #proyecto .proyecto__top--title {
+        text-align: left;
+        line-height: 1.2;
+        font-size: 2rem;
+        margin-bottom: 2.5rem;
+        padding-right: 3rem;
+    }
+    
+    #proyecto .proyecto__top--text {
+        line-height: 1.2;
+        font-size: 1.2rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    #proyecto .proyecto__top--text {
+        text-align: left;
+    }
+}
+
+/* IMAGENES */
+
+#proyecto .proyecto__content {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+#proyecto .proyecto__content {
+    display: flex;
+    align-content: center;
+}
+
+#proyecto .proyecto__content--down {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 4rem;
+    justify-content: center;
+}
+
+#proyecto .proyecto__item--text {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+#proyecto .proyecto__link {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+#proyecto .proyecto__link:hover {
+    color: var(--secondary);
+    text-decoration: underline;
+}
+
+/* TESTIMONIOS */
+/* TITULO */
+
+#review .review__item {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#review .review__title {
+    font-weight: 200;
+}
+
+#review .review__subtitle {
+    font-weight: 700;
+}
+
+#review .review__card {
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+#review .review__card {
+    background-color: var(--primary);
+    width: auto;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 3rem;
+    color: var(--dark);
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+#review .review__card--description {
+    padding: 1rem;
+    margin: 1rem;   
+}
+
+.review__results {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.review__text {
+    margin-bottom: 1rem;
+}
+
+.review__author--name {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-weight: 700;
+}
+
+.review__author--profesion {
+    color: #6C757D;
+}
+
+/* CALL TO ACTION */
+
+#cta {
+    margin-bottom: 2rem;
+
+    #cta {
+        background-color: var(--primary);
+        color: var(--dark);
+        width: auto;
+        padding: 2rem;
+        border: none;
+        border-radius: 3rem;
+        letter-spacing: 1px;
+    }
+    
+    #cta .cta__title {
+        text-align: center;
+        font-size: 5rem;
+        padding-bottom: 1rem;
+    }
+    
+    #cta .cta__text {
+        text-align: center;
+        font-size: 1rem;
+        padding-bottom: 1.5rem;
+    }
+    
+    #cta .cta__button {
+        background-color: var(--secondary);
+        width: 10.281rem;
+        padding: 1rem;
+        border: none;
+        border-radius: 5rem;
+        color: #fff;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 1rem;
+        letter-spacing: 2px;
+        transition: all 0.4s;
+        text-align: center;
+    }
+    
+    #cta .cta__link {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cta__button:hover {
+        box-shadow: inset 16rem 0 0 0 var(--accent);
+    }
+}

@@ -3,47 +3,48 @@
 #footer {
     padding-top: 2rem;
     background-color: var(--lightblack);
-}
 
-#footer .footer__title {
-    font-size: 2rem;
-    padding-bottom: 1rem;
-    text-align: center;
-}
 
-#footer .footer__item {
-    display: flex;
-    justify-content: space-evenly;
-    padding: .5rem;
-    font-size: 1.2rem;
-}
+    #footer .footer__title {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
 
-#footer .footer__link:hover {
-    color: var(--secondary);
-}
+    #footer .footer__item {
+        display: flex;
+        justify-content: space-evenly;
+        padding: .5rem;
+        font-size: 1.2rem;
+    }
 
-#footer .footer__down {
-    display: flex;
-    justify-content: space-between;
-}
+    #footer .footer__link:hover {
+        color: var(--secondary);
+    }
 
-#footer .footer__rights {
-    margin-left: 1rem;
-}
+    #footer .footer__down {
+        display: flex;
+        justify-content: space-between;
+    }
 
-#footer .socialmedia {
-    margin-right: 1rem;
-    padding-bottom: 1rem;
-}
+    #footer .footer__rights {
+        margin-left: 1rem;
+    }
 
-#footer .socialmedia__link:hover {
-    color: var(--secondary);
-}
+    #footer .socialmedia {
+        margin-right: 1rem;
+        padding-bottom: 1rem;
+    }
 
-#footer .socialmedia__item {
-    padding: .5rem;
-}
+    #footer .socialmedia__link:hover {
+        color: var(--secondary);
+    }
 
-#footer .socialmedia__link {
-    padding: .5rem;
+    #footer .socialmedia__item {
+        padding: .5rem;
+    }
+
+    #footer .socialmedia__link {
+        padding: .5rem;
+    }
 }
