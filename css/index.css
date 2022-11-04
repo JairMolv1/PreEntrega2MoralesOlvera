@@ -117,7 +117,7 @@ header {
     padding: 1.5rem;
     border: none;
     border-radius: 5rem;
-    color: #fff;
+    color: var(--primary);
     cursor: pointer;
     font-weight: 500;
     font-size: 1rem;
@@ -301,6 +301,10 @@ header {
     letter-spacing: 1px;
 }
 
+#review .review__card--img {
+    margin-top: 3rem;
+}
+
 #review .review__card--description {
     padding: 1rem;
     margin: 1rem;   
@@ -343,7 +347,7 @@ header {
 
 #cta .cta__title {
     text-align: center;
-    font-size: 5rem;
+    font-size: 3rem;
     padding-bottom: 1rem;
 }
 
