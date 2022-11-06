@@ -2,7 +2,7 @@
 
 #footer {
   padding-top: 2rem;
-  background-color: var(--lightblack);
+  background-color: $lightblack;
 }
 
 #footer .footer__title {
@@ -19,7 +19,7 @@
 }
 
 #footer .footer__link:hover {
-  color: var(--secondary);
+  color: $secondary;
 }
 
 #footer .footer__down {
@@ -37,7 +37,7 @@
 }
 
 #footer .socialmedia__link:hover {
-  color: var(--secondary);
+  color: $secondary;
 }
 
 #footer .socialmedia__item {

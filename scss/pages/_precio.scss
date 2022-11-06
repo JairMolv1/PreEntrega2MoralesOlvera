@@ -1,3 +1,26 @@
+/* PAGINA DE PRECIOS */
+
+.precios__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  padding: 2rem;
+}
+
+.precios__description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.precios__item {
+  padding: 2rem;
+}
+
 .precios__menu {
   padding-bottom: 2rem;
 }

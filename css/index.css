@@ -453,10 +453,6 @@ header {
   margin-top: 3rem;
   justify-content: space-between;
   align-items: center;
-}
-
-#formulario {
-  display: flex;
   gap: 90px;
 }
 
