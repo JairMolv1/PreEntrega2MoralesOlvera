@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/JairMolv1/project__biznz--coderhouse/issues"
   },
-  "homepage": "https://github.com/JairMolv1/project__biznz--coderhouse#readme"
+  "homepage": "https://github.com/JairMolv1/project__biznz--coderhouse#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }
