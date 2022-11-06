@@ -1,21 +1,20 @@
 /* IMPORTS */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700&display=swap");
 
 /* MISC */
 
-@import './misc/normalize';
+@import "./misc/normalize";
 
 /* PARTIALS */
 
-@import './partials/header';
-@import './partials/footer';
+@import "./partials/header";
+@import "./partials/footer";
 
 /* PAGES */
 
-@import './pages/index';
-@import './pages/nosotros';
-@import './pages/caracteristicas';
-@import './pages/precio';
-@import './pages/contacto';
-@import './pages/registro';
+@import "./pages/index";
+@import "./pages/nosotros";
+@import "./pages/caracteristicas";
+@import "./pages/precio";
+@import "./pages/formulario";

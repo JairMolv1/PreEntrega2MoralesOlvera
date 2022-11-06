@@ -1,0 +1,75 @@
+/* PAGINA DE REGISTRO Y CONTACTO */
+
+#formulario {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-between;
+  align-items: center;
+
+  #formulario {
+    display: flex;
+    gap: 90px;
+  }
+
+  #formulario {
+    margin: 1rem 0;
+  }
+
+  #formulario .formulario__registro {
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+  }
+
+  .formulario__registro--title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .formularios__registro--form {
+    font-size: 1.7rem;
+    margin: 1rem 0;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 1.2rem;
+    box-shadow: inset 0px 0px 15px 2px rgba(0, 0, 0, 0.3);
+    outline: none;
+  }
+
+  .formularios__registro--form {
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .formularios__registro--form .form {
+    padding: 1rem;
+    border: none;
+    border-radius: 1.2rem;
+    box-shadow: inset 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
+    resize: none;
+    width: 95%;
+    transition: 0.5s;
+    margin: 1rem;
+  }
+
+  .formularios__registro--form .send {
+    background-color: $secondary;
+    color: $primary;
+    padding: 1rem;
+    border: none;
+    border-radius: 1.2rem;
+    box-shadow: inset 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
+    resize: none;
+    width: 40%;
+    transition: 0.5s;
+    margin: 1rem;
+    font-weight: 1000;
+  }
+
+  .formularios__registro--form .send:hover {
+    box-shadow: inset 16rem 0 0 0 $accent;
+  }
+}

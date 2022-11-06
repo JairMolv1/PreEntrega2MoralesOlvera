@@ -1,45 +1,47 @@
+@import "./misc/variables";
+
 /* NORMALIZE */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: 62.5%;
+  font-family: 62.5%;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    color: var(--primary);
-    background-color: var(--dark);
+  font-family: "Montserrat", sans-serif;
+  color: $primary;
+  background-color: $dark;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    font-size: var(--text-xxs);
-    text-decoration: none;
-    color: var(--primary);
+  font-size: $text-xs;
+  text-decoration: none;
+  color: $primary;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* BOOTSTRAP DESREBOOT */
-    a {
-        --bs-link-color:var(--primary)
-    }
+a {
+  --bs-link-color: $primary;
+}
 
-    body {
-        --bs-body-bg:var(--dark)
-    }
+body {
+  --bs-body-bg: $dark;
+}
 
-    body {
-        --bs-body-color:var(--primary)
-    }
+body {
+  --bs-body-color: $primary;
+}

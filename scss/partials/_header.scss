@@ -2,62 +2,62 @@
 /* NAVBAR */
 
 header {
-    padding: var(--sp-sm);
+  padding: $sp-sm;
 }
 
 header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
-    background-color: var(--lightblack);
-    padding: 1.125em;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: $lightblack;
+  padding: 1.125em;
 }
 
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .clientes__item:hover {
+    animation: animation 2s ease-out;
+  }
+
+  @keyframes animation {
+    0% {
+      opacity: 0;
+      left: -700px;
+    }
+
+    100% {
+      opacity: 1;
+      left: 0;
+    }
+  }
+
+  .menu {
     display: flex;
-    justify-content: space-between;
-    align-items: center;   
+    gap: 60px;
+  }
 
-    .clientes__item:hover {
-        animation: animation 2s ease-out;
-    }
+  .menu .menu__link:hover {
+    color: $secondary;
+  }
 
-    @keyframes animation {
-        0% {
-            opacity: 0;
-            left: -700px;
-        }
+  .menu__link-boton {
+    background-color: $secondary;
+    width: 10.281rem;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 5rem;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    transition: all 0.4s;
+  }
 
-        100% {
-            opacity: 1;
-            left: 0;
-        }
-    }
-
-    .menu {
-        display: flex;
-        gap: 60px;
-    }
-
-    .menu .menu__link:hover {
-        color: var(--secondary);
-    }
-
-    .menu__link-boton {
-        background-color: var(--secondary);
-        width: 10.281rem;
-        padding: 1.5rem;
-        border: none;
-        border-radius: 5rem;
-        color: #fff;
-        cursor: pointer;
-        font-weight: 500;
-        font-size: 1rem;
-        letter-spacing: 2px;
-        transition: all 0.4s;
-    }
-
-    .menu__link-boton:hover {
-        box-shadow: inset 16rem 0 0 0 var(--accent);
-    }
+  .menu__link-boton:hover {
+    box-shadow: inset 16rem 0 0 0 $accent;
+  }
 }

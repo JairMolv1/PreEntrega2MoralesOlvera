@@ -1,0 +1,20 @@
+/* PAGINA DE CARACTERISTICAS */
+
+.caracteristicas__title {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+}
+
+.caracteristicas__text {
+  font-size: 1.125rem;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
+}
+
+.caracteristicas__content--item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
