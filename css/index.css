@@ -298,10 +298,6 @@ header {
   letter-spacing: 1px;
 }
 
-.review__card--img {
-  margin-top: 3rem;
-}
-
 #review .review__card--description {
   padding: 1rem;
   margin: 1rem;
@@ -344,7 +340,7 @@ header {
 
 #cta .cta__title {
   text-align: center;
-  font-size: 3rem;
+  font-size: 5rem;
   padding-bottom: 1rem;
 }
 

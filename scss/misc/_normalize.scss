@@ -35,7 +35,7 @@ a {
 
 /* BOOTSTRAP DESREBOOT */
 a {
-  --bs-link-color: $primary;
+  --bs-link-color: var(--primary);
 }
 
 body {
