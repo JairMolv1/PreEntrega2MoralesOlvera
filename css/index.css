@@ -569,37 +569,441 @@ header {
 }
 
 /* MEDIA QUERIES */
-
-/*NAVBAR*/
-@media (max-width: 768px) {
+@media only screen and (max-width: 576px) {
   .navbar {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar .menu {
+    margin-top: 0.5rem;
+    justify-content: space-evenly;
+    transition: all 0.6s ease;
+    display: block;
   }
 
   .navbar .menu__link {
-    flex-direction: column;
+    padding: 0.5rem;
+  }
+
+  .navbar .menu__link-boton {
+    display: none;
   }
 
   #hero {
     flex-direction: column;
+    display: block;
   }
 
-  main {
-    display: flex;
-    justify-content: center;
+  .hero__title {
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .hero__text {
+    text-align: center;
+    padding-top: 0.5rem;
+  }
+
+  .hero__imagen {
+    align-content: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .proyecto__texto--top {
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .proyecto__item {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .proyecto__content--down {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .review__item {
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .review__card {
+    flex-direction: column;
+    display: block;
+  }
+
+  .estrellas {
+    display: none;
+  }
+
+  .review__results {
+    display: none;
+  }
+
+  .review__card--description {
     flex-direction: column;
   }
 
-  #proyecto .proyecto__texto--top {
+  .review__card--img {
+    display: none;
+  }
+
+  .socialmedia__logo {
+    display: none;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .nosotros__item {
+    flex-direction: column;
+    align-items: center;
+    display: block;
+  }
+
+  .nosotros__text {
+    text-align: center;
+    padding-top: 1rem;
+    padding-right: 2rem;
+  }
+
+  .caracteristicas__content--item {
+    flex-direction: column-reverse;
+    align-items: center;
+    display: block;
+  }
+
+  .precios__title {
+    font-size: var(--text-md);
+  }
+
+  .precios__description {
+    font-size: var(--text-s);
+  }
+
+  .precios__image {
+    flex-direction: column-reverse;
+    align-items: center;
+    display: block;
+    padding: 4rem;
+  }
+
+  .formulario__registro--title {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .formulario__registro {
+    padding: 2rem;
+  }
+
+  .footer__down {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar .menu {
+    margin-top: 0.5rem;
+    justify-content: space-evenly;
+    transition: all 0.6s ease;
+    display: block;
+  }
+
+  .navbar .menu__link {
+    padding: 0.5rem;
+  }
+
+  .navbar .menu__link-boton {
+    display: none;
+  }
+
+  #hero {
+    flex-direction: column;
+    display: block;
+  }
+
+  .hero__title {
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .hero__text {
+    text-align: center;
+    padding-top: 0.5rem;
+  }
+
+  .hero__imagen {
+    align-content: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .proyecto__texto--top {
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .proyecto__item {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .proyecto__content--down {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .review__item {
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .review__card {
+    flex-direction: column;
+    display: block;
+  }
+
+  .estrellas {
+    display: none;
+  }
+
+  .review__results {
+    display: none;
+  }
+
+  .review__card--description {
     flex-direction: column;
   }
 
-  #proyecto .proyecto__content {
+  .review__card--img {
+    display: none;
+  }
+
+  .socialmedia__logo {
+    display: none;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .nosotros__item {
+    flex-direction: column;
+    align-items: center;
+    display: block;
+  }
+
+  .nosotros__text {
+    text-align: center;
+    padding-top: 1rem;
+    padding-right: 2rem;
+  }
+
+  .caracteristicas__content--item {
+    flex-direction: column-reverse;
+    align-items: center;
+    display: block;
+  }
+
+  .precios__title {
+    font-size: var(--text-md);
+  }
+
+  .precios__description {
+    font-size: var(--text-s);
+  }
+
+  .precios__image {
+    flex-direction: column-reverse;
+    align-items: center;
+    display: block;
+    padding: 4rem;
+  }
+
+  .formulario__registro--title {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .formulario__registro {
+    padding: 2rem;
+  }
+
+  .footer__down {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar .menu {
+    margin-top: 0.5rem;
+    justify-content: space-evenly;
+    transition: all 0.6s ease;
+    display: block;
+    padding-bottom: 2rem;
+  }
+
+  .navbar .menu__link {
+    padding: 0.5rem;
+  }
+
+  #hero {
+    flex-direction: column;
+    display: block;
+  }
+
+  .hero__title {
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .hero__text {
+    text-align: center;
+    padding-top: 0.5rem;
+  }
+
+  .hero__imagen {
+    align-content: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .proyecto__texto--top {
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .proyecto__item {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .proyecto__content--down {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .review__item {
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .review__card {
+    flex-direction: column;
+    display: block;
+  }
+
+  .estrellas {
+    display: none;
+  }
+
+  .review__results {
+    display: none;
+  }
+
+  .review__card--description {
     flex-direction: column;
   }
 
-  #proyecto .proyecto__content--down {
+  .review__card--img {
+    display: none;
+  }
+
+  .socialmedia__logo {
+    display: none;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .nosotros__item {
     flex-direction: column;
+    align-items: center;
+    display: block;
+  }
+
+  .nosotros__text {
+    text-align: center;
+    padding-top: 1rem;
+    padding-right: 2rem;
+  }
+
+  .caracteristicas__content--item {
+    flex-direction: column-reverse;
+    align-items: center;
+    display: block;
+  }
+
+  .precios__title {
+    font-size: var(--text-md);
+  }
+
+  .precios__description {
+    font-size: var(--text-s);
+  }
+
+  .precios__image {
+    flex-direction: column-reverse;
+    align-items: center;
+    display: block;
+    padding: 3rem;
+  }
+
+  .formulario__registro--title {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .formulario__registro {
+    padding: 2rem;
+  }
+
+  .footer__down {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
