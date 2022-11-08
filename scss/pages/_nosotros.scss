@@ -17,3 +17,160 @@
   align-items: center;
   padding: 1rem;
 }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar .menu {
+    margin-top: 0.5rem;
+    justify-content: space-evenly;
+    transition: all 0.6s ease;
+    display: block;
+  }
+
+  .navbar .menu__link {
+    padding: 0.5rem;
+  }
+
+  .navbar .menu__link-boton {
+    display: none;
+  }
+
+  .footer__down {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .socialmedia__logo {
+    display: none;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .nosotros__item {
+    flex-direction: column;
+    align-items: center;
+    display: block;
+  }
+
+  .nosotros__text {
+    text-align: center;
+    padding-top: 1rem;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar .menu {
+    margin-top: 0.5rem;
+    justify-content: space-evenly;
+    transition: all 0.6s ease;
+    display: block;
+  }
+
+  .navbar .menu__link {
+    padding: 0.5rem;
+  }
+
+  .navbar .menu__link-boton {
+    display: none;
+  }
+
+  .socialmedia__logo {
+    display: none;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer__down {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nosotros__item {
+    flex-direction: column;
+    align-items: center;
+    display: block;
+  }
+
+  .nosotros__text {
+    text-align: center;
+    padding-top: 1rem;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar .menu {
+    margin-top: 0.5rem;
+    justify-content: space-evenly;
+    transition: all 0.6s ease;
+    display: block;
+    padding-bottom: 2rem;
+  }
+
+  .navbar .menu__link {
+    padding: 0.5rem;
+  }
+
+  .socialmedia__logo {
+    display: none;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer__down {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nosotros__item {
+    flex-direction: column;
+    align-items: center;
+    display: block;
+  }
+
+  .nosotros__text {
+    text-align: center;
+    padding-top: 1rem;
+    padding-right: 2rem;
+  }
+}
